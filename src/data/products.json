@@ -1,0 +1,311 @@
+{
+  "brincolines": [
+    {
+      "id": "brincolin-atlantic-15",
+      "nombre": "BRINCOLÍN ATLANTIC 15 PIES",
+      "slug": "brincolin-atlantic-15",
+      "descripcion": "Diversión segura para tus pequeños y precios que te sorprenderán",
+      "imagen": "/images/trampoli-2.jpg",
+      "imagenes": [
+        "/images/trampoli-2.jpg",
+        "/images/brincolin-1-2.jpg",
+        "/images/brincolin-1-3.jpg"
+      ],
+      "premium": true,
+      "nuevo": false,
+      "disponible": true,
+      "precios": {
+        "hora": 1,
+        "dia": 450,
+        "finSemana": 650
+      },
+      "especificaciones": {
+        "dimensiones": {
+          "diametro": "4.57 metros",
+          "alturaTotal": "4.57 metros",
+          "camaSalto": "2.72m",
+          "redSeguridad": "1.50m"
+        },
+        "capacidad": {
+          "pesoMaximo": "150kg",
+          "edadRecomendada": "6+ años",
+          "usuariosSimultaneos": "6-10 niños",
+          "adultos": "2-3 personas"
+        },
+        "seguridad": {
+          "resortes": "96 resortes galvanizados",
+          "estructura": "Estructura de acero reforzado",
+          "certificacion": "Certificación ASTM",
+          "proteccionUV": true
+        },
+        "incluye": [
+          "Brincolín completo",
+          "Red de seguridad",
+          "Instalación y recolección"
+        ]
+      },
+      "caracteristicas": [
+        "6-10 niños",
+        "4.5x4.5m",
+        "🎪"
+      ],
+      "textoExtra": "¡Perfecto para hacer que los niños salten de alegría! ✨"
+    },
+    {
+      "id": "inflable-spiderman",
+      "nombre": "INFLABLE CASTILLO SPIDER-MAN",
+      "slug": "inflable-spiderman",
+      "descripcion": "Aventura de superhéroes para los más pequeños",
+      "imagen": "/images/inflable-spiderman.jpg",
+      "imagenes": [
+        "/images/inflable-spiderman.jpg",
+        "/images/inflable-spiderman-2.jpg",
+        "/images/inflable-spiderman-3.jpg"
+      ],
+      "premium": true,
+      "nuevo": true,
+      "disponible": true,
+      "precios": {
+        "hora": 1,
+        "dia": 650,
+        "finSemana":1100 
+      },
+      "especificaciones": {
+        "dimensiones": {
+          "largo": "4 metros",
+          "ancho": "4 metros",
+          "altura": "3.15 metros",
+          "areaRebote": "16 metros cuadrados"
+        },
+        "capacidad": {
+          "pesoMaximo": "150kg",
+          "edadRecomendada": "3-10 años",
+          "usuariosSimultaneos": "6-8 niños",
+          "adultos": "Supervisión externa"
+        },
+        "seguridad": {
+          "material": "Lona de uso rudo para niños",
+          "anclaje": "Cinta de amarre incluida",
+          "certificacion": "Material certificado",
+          "aireLibre": true
+        },
+        "incluye": [
+          "Inflable castillo completo",
+          "Motor soplador ",
+          "Bolso de traslado",
+          "Extencion 15m",
+          "Cinta de amarre",
+          "Instalación y recolección"
+        ]
+      },
+      "caracteristicas": [
+        "6-8 niños",
+        "4x4m",
+        "🕷️"
+      ],
+      "textoExtra": "¡Diversión de superhéroes para tu fiesta! 🕸️✨"
+    },
+    {
+      "id": "inflable-princesas",
+      "nombre": "INFLABLE CASTILLO PRINCESAS",
+      "slug": "inflable-princesas",
+      "descripcion": "Un castillo mágico para las princesas de la casa",
+      "imagen": "/images/inflable-princesas.jpg",
+      "imagenes": [
+        "/images/inflable-princesas.jpg",
+        "/images/inflable-princesas-2.jpg",
+        "/images/inflable-princesas-3.jpg"
+      ],
+      "premium": true,
+      "nuevo": true,
+      "disponible": true,
+      "precios": {
+        "hora": 1,
+        "dia": 650,
+        "finSemana": 1100
+      },
+      "especificaciones": {
+        "dimensiones": {
+          "largo": "4 metros",
+          "ancho": "4 metros",
+          "altura": "3.15 metros",
+          "areaRebote": "16 metros cuadrados"
+        },
+        "capacidad": {
+          "pesoMaximo": "150kg",
+          "edadRecomendada": "3-10 años",
+          "usuariosSimultaneos": "6-8 niños",
+          "adultos": "Supervisión externa"
+        },
+        "seguridad": {
+          "material": "Lona de uso rudo para niños",
+          "anclaje": "Cinta de amarre incluida",
+          "certificacion": "Material certificado",
+          "aireLibre": true
+        },
+        "incluye": [
+          "Inflable castillo completo",
+          "Motor soplador ",
+          "Bolso de traslado",
+          "Extencion 15m",
+          "Cinta de amarre",
+          "Instalación y recolección"
+        ]
+      },
+      "caracteristicas": [
+        "6-8 niños",
+        "4x4m",
+        "👸"
+      ],
+      "textoExtra": "¡Convierte tu fiesta en un cuento de hadas! 👑✨"
+    },
+    {
+      "id": "paquete-spiderman-brincolin",
+      "nombre": "PAQUETE: INFLABLE SPIDER-MAN + BRINCOLÍN",
+      "slug": "paquete-spiderman-brincolin",
+      "descripcion": "La combinación perfecta de superhéroes y diversión extrema",
+      "imagen": "/images/paquete-spiderman-brincolin.jpg",
+      "imagenes": ["/images/paquete-spiderman-brincolin.jpg"],
+      "premium": true,
+      "nuevo": true,
+      "disponible": true,
+      "precios": {
+        "hora": 1,
+        "dia": 1100,
+        "finSemana": 1500
+      },
+      "especificaciones": {
+        "dimensiones": {
+          "inflable": "4m x 4m x 3.15m",
+          "brincolin": "4.57m de diámetro",
+          "espacioTotal": "Aprox. 9m x 5m requerido"
+        },
+        "capacidad": {
+          "pesoMaximo": "150kg por equipo",
+          "edadRecomendada": "3+ años",
+          "usuariosSimultaneos": "12-18 niños (ambos)",
+          "adultos": "2-3 personas en brincolín"
+        },
+        "seguridad": {
+          "certificacion": "Certificación ASTM (brincolín)",
+          "material": "Uso rudo certificado",
+          "anclaje": "Kit completo incluido",
+          "proteccionUV": true
+        },
+        "incluye": [
+          "Inflable Spider-Man completo",
+          "Brincolín Atlantic completo",
+          "Motor soplador ",
+          "Redes de seguridad",
+          "Extencion 15m",
+          "Cinta de amarre",
+          "Instalación y recolección"
+        ]
+      },
+      "caracteristicas": [
+        "12-18 niños",
+        "Paquete 2x1",
+        "🕷️🎪"
+      ],
+      "textoExtra": "¡Doble diversión con Spider-Man y brincolín! 🕸️✨"
+    },
+    {
+      "id": "paquete-princesas-brincolin",
+      "nombre": "PAQUETE: INFLABLE PRINCESAS + BRINCOLÍN",
+      "slug": "paquete-princesas-brincolin",
+      "descripcion": "Un mundo de fantasía y saltos para las princesas",
+      "imagen": "/images/paquete-princesas-brincolin.jpg",
+      "imagenes": ["/images/paquete-princesas-brincolin.jpg"],
+      "premium": true,
+      "nuevo": true,
+      "disponible": true,
+      "precios": {
+        "hora": 1,
+        "dia": 1100,
+        "finSemana": 1500
+      },
+      "especificaciones": {
+        "dimensiones": {
+          "inflable": "4m x 4m x 3.15m",
+          "brincolin": "4.57m de diámetro",
+          "espacioTotal": "Aprox. 9m x 5m requerido"
+        },
+        "capacidad": {
+          "pesoMaximo": "150kg por equipo",
+          "edadRecomendada": "3+ años",
+          "usuariosSimultaneos": "12-18 niños (ambos)",
+          "adultos": "2-3 personas en brincolín"
+        },
+        "seguridad": {
+          "certificacion": "Certificación ASTM (brincolín)",
+          "material": "Uso rudo certificado",
+          "anclaje": "Kit completo incluido",
+          "proteccionUV": true
+        },
+        "incluye": [
+          "Inflable Princesas completo",
+          "Brincolín Atlantic completo",
+          "Motor soplador ",
+          "Redes de seguridad",
+          "Extencion 15m",
+          "Cinta de amarre",
+          "Instalación y recolección"
+        ]
+      },
+      "caracteristicas": [
+        "12-18 niños",
+        "Paquete 2x1",
+        "👸🎪"
+      ],
+      "textoExtra": "¡Castillo de princesas y brincolín juntos! 👑✨"
+    },
+    {
+      "id": "paquete-dos-brincolines",
+      "nombre": "PAQUETE: 2 BRINCOLINES",
+      "slug": "paquete-dos-brincolines",
+      "descripcion": "Doble diversión para eventos grandes",
+      "imagen": "/images/doss.jpg",
+      "imagenes": ["/images/doss.jpg"],
+      "premium": true,
+      "nuevo": false,
+      "disponible": true,
+      "precios": {
+        "hora": 1,
+        "dia": 950,
+        "finSemana": 1400
+      },
+      "especificaciones": {
+        "dimensiones": {
+          "cantidad": "2 unidades",
+          "diametro": "4.57 metros cada uno",
+          "alturaTotal": "4.57 metros",
+          "espacioTotal": "Aprox. 10m x 5m requerido"
+        },
+        "capacidad": {
+          "pesoMaximo": "150kg por unidad",
+          "edadRecomendada": "6+ años",
+          "usuariosSimultaneos": "12-20 niños (ambos)",
+          "adultos": "4-6 personas"
+        },
+        "seguridad": {
+          "resortes": "96 resortes galvanizados cada uno",
+          "estructura": "Estructura de acero reforzado",
+          "certificacion": "Certificación ASTM",
+          "proteccionUV": true
+        },
+        "incluye": [
+          "2 Brincolines completos",
+          "Redes de seguridad",
+          "Kit de anclaje completo",
+          "Instalación y recolección"
+        ]
+      },
+      "caracteristicas": [
+        "x2 🎪",
+        "12-20 niños",
+        "Paquete Premium"
+      ],
+      "textoExtra": "¡Doble diversión para eventos más grandes! 🎉✨"
+    }
+  ]
+}

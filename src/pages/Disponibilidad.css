@@ -1,0 +1,278 @@
+.disponibilidad-page {
+  min-height: 100vh;
+  padding: 60px 0 80px;
+  background: linear-gradient(135deg, rgba(135, 206, 235, 0.1) 0%, rgba(147, 112, 219, 0.1) 50%, rgba(255, 105, 180, 0.1) 100%);
+}
+
+.disponibilidad-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Hero */
+.disponibilidad-hero {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.disponibilidad-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #9370db 0%, #ff69b4 100%);
+  color: white;
+  padding: 10px 28px;
+  border-radius: 24px;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 16px rgba(147, 112, 219, 0.3);
+}
+
+.disponibilidad-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #333;
+  margin: 0 0 20px 0;
+  line-height: 1.2;
+  cursor: pointer;
+  user-select: none;
+}
+
+.disponibilidad-title .highlight {
+  background: linear-gradient(135deg, #1b030f 0%, #2e1066 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.disponibilidad-text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #666;
+  line-height: 1.7;
+  margin: 0;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Calendario */
+.calendar-section {
+  margin-bottom: 48px;
+}
+
+/* CTA */
+.cta-section {
+  margin-bottom: 48px;
+}
+
+.cta-card {
+  background: linear-gradient(135deg, #98fb98 0%, #00ced1 100%);
+  padding: 48px 40px;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 206, 209, 0.3);
+}
+
+.cta-icon {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.cta-title {
+  font-size: 32px;
+  font-weight: 900;
+  color: white;
+  margin: 0 0 16px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cta-text {
+  font-size: 17px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.95);
+  line-height: 1.7;
+  margin: 0 0 28px 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  color: #00ced1;
+  padding: 16px 32px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.cta-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Info Grid */
+.info-grid-section {
+  margin-bottom: 20px;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.info-item {
+  background: white;
+  padding: 28px 24px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.info-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.info-item-icon {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.info-item-title {
+  font-size: 18px;
+  font-weight: 900;
+  color: #9370db;
+  margin: 0 0 10px 0;
+}
+
+.info-item-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .disponibilidad-page {
+    padding: 40px 0 60px;
+  }
+
+  .disponibilidad-container {
+    padding: 0 16px;
+  }
+
+  .disponibilidad-hero {
+    margin-bottom: 32px;
+  }
+
+  .disponibilidad-title {
+    font-size: 36px;
+  }
+
+  .disponibilidad-text {
+    font-size: 16px;
+  }
+
+  .calendar-section {
+    margin-bottom: 32px;
+  }
+
+  .cta-section {
+    margin-bottom: 32px;
+  }
+
+  .cta-card {
+    padding: 36px 28px;
+  }
+
+  .cta-icon {
+    font-size: 52px;
+  }
+
+  .cta-title {
+    font-size: 28px;
+  }
+
+  .cta-text {
+    font-size: 15px;
+  }
+
+  .cta-button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .info-item {
+    padding: 24px 20px;
+  }
+
+  .info-item-icon {
+    font-size: 40px;
+  }
+
+  .info-item-title {
+    font-size: 16px;
+  }
+
+  .info-item-text {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .disponibilidad-page {
+    padding: 32px 0 48px;
+  }
+
+  .disponibilidad-title {
+    font-size: 28px;
+  }
+
+  .disponibilidad-text {
+    font-size: 15px;
+  }
+
+  .disponibilidad-badge {
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+
+  .cta-card {
+    padding: 28px 20px;
+  }
+
+  .cta-icon {
+    font-size: 48px;
+  }
+
+  .cta-title {
+    font-size: 24px;
+  }
+
+  .cta-text {
+    font-size: 14px;
+  }
+
+  .cta-button {
+    padding: 14px 24px;
+    font-size: 14px;
+  }
+}

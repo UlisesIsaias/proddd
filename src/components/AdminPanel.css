@@ -1,0 +1,361 @@
+.admin-panel {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Lock Screen */
+.admin-lock-container {
+  background: white;
+  border-radius: 24px;
+  padding: 48px 40px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  text-align: center;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.lock-icon-wrapper {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 24px;
+  background: linear-gradient(135deg, #ff69b4 0%, #9370db 100%);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 8px 24px rgba(255, 105, 180, 0.3);
+}
+
+.lock-title {
+  font-size: 28px;
+  font-weight: 900;
+  color: #9370db;
+  margin: 0 0 12px 0;
+}
+
+.lock-description {
+  font-size: 15px;
+  font-weight: 600;
+  color: #666;
+  margin: 0 0 32px 0;
+  line-height: 1.6;
+}
+
+.lock-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.password-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-input {
+  width: 100%;
+  padding: 16px 50px 16px 20px;
+  border: 2px solid #e0e0e0;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.password-input:focus {
+  outline: none;
+  border-color: #ff69b4;
+  box-shadow: 0 0 0 4px rgba(255, 105, 180, 0.1);
+}
+
+.toggle-password-btn {
+  position: absolute;
+  right: 12px;
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.toggle-password-btn:hover {
+  color: #ff69b4;
+}
+
+.error-message {
+  background: linear-gradient(135deg, rgba(255, 107, 107, 0.1) 0%, rgba(255, 82, 82, 0.1) 100%);
+  color: #d32f2f;
+  padding: 12px 16px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  border-left: 4px solid #d32f2f;
+}
+
+.unlock-btn {
+  background: linear-gradient(135deg, #98fb98 0%, #00ced1 100%);
+  color: #1a1a1a;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(0, 206, 209, 0.3);
+}
+
+.unlock-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 206, 209, 0.4);
+}
+
+.lock-hint {
+  margin-top: 24px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #999;
+  font-style: italic;
+}
+
+/* Unlocked Panel */
+.admin-panel.unlocked {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.admin-header {
+  background: white;
+  border-radius: 24px;
+  padding: 24px 32px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.admin-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.admin-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.admin-icon {
+  font-size: 48px;
+}
+
+.admin-title {
+  font-size: 24px;
+  font-weight: 900;
+  color: #9370db;
+  margin: 0;
+}
+
+.admin-subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #666;
+  margin: 4px 0 0 0;
+}
+
+.lock-btn {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ff5252 100%);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 800;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(255, 107, 107, 0.3);
+}
+
+.lock-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(255, 107, 107, 0.4);
+}
+
+.admin-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.admin-instructions {
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 165, 0, 0.1) 100%);
+  border-radius: 20px;
+  padding: 24px 28px;
+  border-left: 4px solid #ffd700;
+}
+
+.instructions-title {
+  font-size: 18px;
+  font-weight: 900;
+  color: #b8860b;
+  margin: 0 0 16px 0;
+}
+
+.instructions-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.instructions-list li {
+  font-size: 15px;
+  font-weight: 600;
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.instructions-list strong {
+  color: #333;
+}
+
+.tag-apartado {
+  background: linear-gradient(135deg, #98fb98 0%, #90ee90 100%);
+  color: #2d5016;
+  padding: 2px 10px;
+  border-radius: 8px;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.tag-rentado {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ff5252 100%);
+  color: white;
+  padding: 2px 10px;
+  border-radius: 8px;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .admin-lock-container {
+    padding: 32px 24px;
+  }
+
+  .lock-icon-wrapper {
+    width: 64px;
+    height: 64px;
+  }
+
+  .lock-title {
+    font-size: 24px;
+  }
+
+  .lock-description {
+    font-size: 14px;
+  }
+
+  .admin-header {
+    padding: 20px 24px;
+  }
+
+  .admin-header-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .admin-title {
+    font-size: 20px;
+  }
+
+  .admin-icon {
+    font-size: 40px;
+  }
+
+  .lock-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .admin-instructions {
+    padding: 20px 24px;
+  }
+
+  .instructions-title {
+    font-size: 16px;
+  }
+
+  .instructions-list li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .admin-lock-container {
+    padding: 24px 20px;
+    border-radius: 20px;
+  }
+
+  .lock-icon-wrapper {
+    width: 56px;
+    height: 56px;
+  }
+
+  .lock-title {
+    font-size: 20px;
+  }
+
+  .password-input {
+    padding: 14px 45px 14px 16px;
+    font-size: 15px;
+  }
+
+  .unlock-btn {
+    padding: 14px 24px;
+    font-size: 15px;
+  }
+
+  .admin-header {
+    padding: 16px 20px;
+  }
+
+  .admin-title-wrapper {
+    gap: 12px;
+  }
+
+  .admin-icon {
+    font-size: 36px;
+  }
+
+  .admin-title {
+    font-size: 18px;
+  }
+
+  .admin-subtitle {
+    font-size: 12px;
+  }
+
+  .lock-btn {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+}
