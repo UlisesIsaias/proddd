@@ -1,0 +1,208 @@
+.promo-banner {
+  position: relative;
+  padding: 16px 20px;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  animation: slideDown 0.5s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Colores de cada promoción */
+.promo-1 {
+  background: linear-gradient(135deg, #ff69b4 0%, #ff1493 100%);
+}
+
+.promo-2 {
+  background: linear-gradient(135deg, #9370db 0%, #7b68ee 100%);
+}
+
+.promo-3 {
+  background: linear-gradient(135deg, #ffd700 0%, #ffa500 100%);
+}
+
+/* Contenido */
+.promo-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.promo-icon {
+  color: white;
+  animation: pulse 2s ease-in-out infinite;
+  flex-shrink: 0;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+}
+
+.promo-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.promo-text {
+  font-size: 18px;
+  font-weight: 900;
+  color: white;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.5px;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.promo-subtext {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.95);
+  margin: 0;
+  animation: fadeIn 0.5s ease-out 0.2s backwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Indicadores */
+.promo-indicators {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 12px;
+  position: relative;
+  z-index: 1;
+}
+
+.indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.indicator.active {
+  width: 24px;
+  border-radius: 4px;
+  background: white;
+}
+
+.indicator:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+/* Botón cerrar */
+.promo-close {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.2);
+  border: none;
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 2;
+}
+
+.promo-close:hover {
+  background: rgba(0, 0, 0, 0.4);
+  transform: translateY(-50%) scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .promo-banner {
+    padding: 14px 48px 14px 16px;
+  }
+
+  .promo-content {
+    gap: 12px;
+  }
+
+  .promo-icon {
+    display: none;
+  }
+
+  .promo-text {
+    font-size: 15px;
+  }
+
+  .promo-subtext {
+    font-size: 12px;
+  }
+
+  .promo-close {
+    right: 12px;
+    width: 28px;
+    height: 28px;
+  }
+
+  .promo-indicators {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .promo-banner {
+    padding: 12px 40px 12px 12px;
+  }
+
+  .promo-text {
+    font-size: 13px;
+  }
+
+  .promo-subtext {
+    font-size: 11px;
+  }
+
+  .indicator {
+    width: 6px;
+    height: 6px;
+  }
+
+  .indicator.active {
+    width: 18px;
+  }
+}
